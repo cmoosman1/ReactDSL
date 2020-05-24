@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle `
     }
 
     body {
-        margin: 0;
+        margin-top: 20px;
         font-family: ${primaryFont};
     }
 
@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle `
         margin: 0 auto;
     }
 
-    div {
-        margin: 20px;
+    #root {
+        padding-top: 20px;
     }
 `
