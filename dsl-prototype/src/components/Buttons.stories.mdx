@@ -18,14 +18,21 @@ Buttons are used to trigger internal actions within your web applications.
 Primary buttons are used as a call to action and indicate the most important action on a page.
 
 <Preview withToolbar>
-  <Story name="primary">
+  <Story name="primary"
+    parameters={{
+      design: {
+        type: 'figma',
+        url: 'https://www.figma.com/file/urmsm1aMX7asxo7VVFHAV9/Untitled?node-id=2%3A43'
+      }
+    }}
+  >
     <PrimaryButton onClick={action('button-click')} disabled={boolean("Disabled", false)}>Hello world</PrimaryButton>
   </Story>
 </Preview>
 
 ## Secondary Buttons
 
-Primary buttons are used as a call to action and indicate the most important action on a page.
+Secondary buttons are used as a call to action and indicate the most important action on a page.
 
 <Story name="secondary">
   <SecondaryButton>Hello world</SecondaryButton>

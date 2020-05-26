@@ -16,8 +16,17 @@ Use modals to call the user to action or complete a task.
 
 The SignUpModal is used to prompt the user to create an account.
 
+
+
 <Preview withToolbar>
-  <Story name="signUp">
+  <Story name="signUp"
+    parameters={{
+      design: {
+        type: 'figma',
+        url: 'https://www.figma.com/file/urmsm1aMX7asxo7VVFHAV9/Untitled?node-id=5%3A102'
+      }
+    }}
+  >
     <SignUpModal showModal={boolean("Show Modal", true)} />
   </Story>
 </Preview>

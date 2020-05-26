@@ -4,6 +4,7 @@ import { withContexts } from "@storybook/addon-contexts/react";
 import { contexts } from "./context";
 import { withKnobs } from "@storybook/addon-knobs";
 import { withA11y } from "@storybook/addon-a11y";
+import { withDesign } from "storybook-addon-designs";
 
 addParameters({
   backgrounds: [
@@ -15,3 +16,4 @@ addParameters({
 addDecorator(withContexts(contexts));
 addDecorator(withKnobs);
 addDecorator(withA11y);
+addDecorator(withDesign);

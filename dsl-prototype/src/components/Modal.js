@@ -45,7 +45,7 @@ export const SignUpModal = ({ showModal, setShowModal}) => {
         <animated.div style={animation}>
             <ModalWrapper>
                 <SignUpHeader>
-                    Welcome to Farmers FastQuote
+                    Welcome to Signup Modal
                 </SignUpHeader>
                 <img src={SignupIllustrations.Signup} alt="foo"/>
                 <PrimaryButton>
